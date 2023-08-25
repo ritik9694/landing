@@ -1,0 +1,67 @@
+.courses{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.courses_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 2rem;
+    flex-direction: column;
+}
+.courses_container{
+    flex: 1 1 30rem;
+
+}
+.courses_container h6{
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.courses_container h2{
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+.courses-img img{
+  display: flex;
+  align-items: flex-end;
+    width: 35vw;
+    animation: floatImage 4s ease-in-out infinite;
+  }
+
+  .courses-img {
+    -webkit-animation: movebounce 5s linear infinite;
+    animation: movebounce 5s linear infinite;
+  }
+  
+  @-webkit-keyframes movebounce {
+    0% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    50% {
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+  }
+  
+  @keyframes movebounce {
+    0% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    50% {
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+    100% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+  }
+  
